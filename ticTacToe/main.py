@@ -19,8 +19,8 @@ RED = (255, 0, 0)
 BLUE = (0, 0, 255)
 
 # Load images for X and O
-X_IMAGE = pygame.transform.scale(pygame.image.load("x.png"), (80, 80))
-O_IMAGE = pygame.transform.scale(pygame.image.load("o.png"), (80, 80))
+X_IMAGE = pygame.transform.scale(pygame.image.load("./ticTacToe/x.png"), (80, 80))
+O_IMAGE = pygame.transform.scale(pygame.image.load("./ticTacToe/o.png"), (80, 80))
 
 # Define a font for end game messages
 END_FONT = pygame.font.SysFont('arial', 40)
